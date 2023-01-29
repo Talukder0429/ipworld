@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	background-color: #bfd7ea;
+	background-color: #f4f4f8;
+	background-color: #d9e5d6;
+	background-color: #e3f2fd;
+}
+
+footer {
+	background-color: #3993dd;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsla(0, 0%, 100%, 0.8);
+	padding: 1rem;
+	width: 100%;
+	border-radius: 0.5rem;
+}
