@@ -5,12 +5,14 @@
 	import { faPhone } from '@fortawesome/free-solid-svg-icons';
 	import { faCashRegister } from '@fortawesome/free-solid-svg-icons';
 	import { faShieldAlt } from '@fortawesome/free-solid-svg-icons';
+	import { faCutlery } from '@fortawesome/free-solid-svg-icons';
 
 	const srcPc = '/images/pc2.jpg';
 	const srcTv = '/images/webtv.jpg';
 	const srcPhone = '/images/phone.jpg';
 	const srcCam = '/images/ss2.jpg';
 	const srcPos = '/images/pos.jpg';
+	const srcFood = '/images/food.jpg';
 </script>
 
 <h1 class="pt-4 pb-2 text-center text-4xl">Welcome to The IPWorld Inc.</h1>
@@ -94,6 +96,23 @@
 			<div class="p-4 text-lg">
 				For restaurants and small business, operate from your smart phone and/or tablet. Easy and
 				Reliable solution for your daily sales tracking solution, starting from just $500!
+			</div>
+		</div>
+	</div>
+</div>
+
+<div
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
+	style="background-image: url({srcFood});"
+>
+	<div class="card max-w-screen-sm">
+		<Fa size="8x" icon={faCutlery} />
+		<div class="text-center">
+			<div class="text-3xl p-2">Deshi Kitchen</div>
+			<div class="border-t border-gray-800" />
+			<div class="p-4 text-lg">
+				Join our rapidly growing network of restaurants dedicated to providing communities the taste
+				of Deshi. Contact us for more information and we will help your business get started!
 			</div>
 		</div>
 	</div>
