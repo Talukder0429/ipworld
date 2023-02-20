@@ -16,7 +16,7 @@
 <h1 class="pt-4 pb-2 text-center text-4xl">Welcome to The IPWorld Inc.</h1>
 <h2 class="pb-4 text-center text-2xl">Preparing hardware and software solutions since 1996!</h2>
 <div
-	class="flex flex-col items-center justify-center h-[40vh] bg-fixed bg-center bg-cover"
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
 	style="background-image: url({srcPc});"
 >
 	<div class="card max-w-screen-sm">
@@ -33,7 +33,7 @@
 </div>
 
 <div
-	class="flex flex-col items-center justify-center h-[40vh] bg-fixed bg-center bg-cover"
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
 	style="background-image: url({srcTv});"
 >
 	<div class="card max-w-screen-sm">
@@ -50,7 +50,7 @@
 </div>
 
 <div
-	class="flex flex-col items-center justify-center h-[40vh] bg-fixed bg-center bg-cover"
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
 	style="background-image: url({srcPhone});"
 >
 	<div class="card max-w-screen-sm">
@@ -66,7 +66,7 @@
 </div>
 
 <div
-	class="flex flex-col items-center justify-center h-[40vh] bg-fixed bg-center bg-cover"
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
 	style="background-image: url({srcCam});"
 >
 	<div class="card max-w-screen-sm">
@@ -83,7 +83,7 @@
 </div>
 
 <div
-	class="flex flex-col items-center justify-center h-[40vh] bg-fixed bg-center bg-cover"
+	class="flex flex-col items-center justify-center min-h-[40vh] bg-fixed bg-center bg-cover p-4"
 	style="background-image: url({srcPos});"
 >
 	<div class="card max-w-screen-sm">
@@ -100,4 +100,6 @@
 </div>
 
 <h2 class="pt-4 text-center text-2xl">Looking for a custom solution?</h2>
-<h2 class="pb-4 text-center text-2xl">Don't hesitate to contact us!</h2>
+<h2 class="pb-4 text-center text-2xl">
+	Don't hesitate to <a href="/contact" class="underline italic">contact us!</a>
+</h2>

@@ -1,5 +1,5 @@
 <div class="flex-grow w-full max-w-screen-2xl mx-auto p-4">
-	<h1 class="text-3xl text-center">About The IPWorld</h1>
+	<h1 class="text-3xl text-center pb-6">About The IPWorld</h1>
 	<p class="indent-4 p-2">
 		Our vision is to make VoIP solutions easily accessible to everyone through variety of simple to
 		use, high quality, low cost global communication solutions.

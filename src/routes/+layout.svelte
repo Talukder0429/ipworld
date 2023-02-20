@@ -17,6 +17,7 @@
 				<a href="/" class="hover:underline">Home</a>
 				<a href="/about" class="hover:underline">About</a>
 				<a href="/contact" class="hover:underline">Contact Us</a>
+				<a href="/pay" class="hover:underline">Pay Now</a>
 			</nav>
 			<button class="self-center ml-auto flex flex-col gap-2 md:hidden" on:click={toggleNav}>
 				<div class="border-solid border-2 border-black w-8" />
@@ -25,12 +26,13 @@
 			</button>
 		</div>
 		<nav
-			class="flex flex-col items-end md:hidden overflow-hidden {isNavOpen ? 'max-h-24' : 'max-h-0'}"
+			class="flex flex-col items-end md:hidden overflow-hidden {isNavOpen ? 'max-h-32' : 'max-h-0'}"
 			style="transition: max-height 350ms ease-out;"
 		>
 			<a href="/" class="hover:underline h-8 shrink-0">Home</a>
 			<a href="/about" class="hover:underline h-8 shrink-0">About</a>
 			<a href="/contact" class="hover:underline h-8 shrink-0">Contact Us</a>
+			<a href="/pay" class="hover:underline">Pay Now</a>
 		</nav>
 	</div>
 </header>
